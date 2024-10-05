@@ -1,4 +1,4 @@
-﻿<local:MyHint Margin="0,0,0,15" Text="欢迎使用 PCL 新功能说明书！作者：风释清然SC" IsWarn="False" />
+﻿<local:MyHint Margin="0,0,0,15" Text="欢迎使用 PCL 新功能说明书！" IsWarn="False" />
 <local:MyCard Title="关于" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
