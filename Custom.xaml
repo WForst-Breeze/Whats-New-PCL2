@@ -74,11 +74,11 @@
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17" TextWrapping="Wrap" 
                    Text="在 PCL 的 GitHub 主仓库中，社区用户正在参与制作更多有趣的新功能，他们正为 PCL 伟大的咕咕咕事业贡献自己的力量！" />
-        <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,8" ColorType="Highlight"
+        <local:MyButton Width="300" Height="35" Padding="13,0" Margin="0,4,20,8" ColorType="Highlight"
                     Text="PCL GitHub 仓库 Pull Request 页面" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/pulls" />
 		<TextBlock Margin="0,10,0,4" LineHeight="17" TextWrapping="Wrap" 
                    Text="同时，PCL 的多语言版本已经开始了翻译工作，如若你感兴趣的话，欢迎协助社区工作者们一同完善 PCL 的国际化工作！" />
-        <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,8"
+        <local:MyButton Width="300" Height="35" Padding="13,0" Margin="0,4,20,8"
                     Text="参与进来！" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/discussions/4580" />
     </StackPanel>
 </local:MyCard>
