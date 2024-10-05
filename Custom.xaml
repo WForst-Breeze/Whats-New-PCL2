@@ -11,3 +11,74 @@
         </StackPanel>
     </StackPanel>
 </local:MyCard>
+
+<local:MyCard Title="NeoForge 兼容与自动安装" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="支持版本：2.8.0 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="PCL 现已支持 NeoForge 的识别与下载安装，你可以在 “下载 → 自动安装” 中选择一个版本来安装之。详细操作步骤可以参考帮助库的描述：" />
+		<local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		            EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="自动安装同目录下的 modpack.zip" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="支持版本：2.8.4 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Mod 管理进一步优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="支持版本：2.8.5 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="现 PCL 已支持筛选可更新/启用/禁用的 Mod。你可以在任意一个装有 Mod 的版本中预览到全新的筛选选项：" />
+		<Image HorizontalAlignment="Center" 
+					Source="https://z4a.net/images/2024/10/05/NewModManagementeb8faa8e6a8324d3.png"/>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="使用新的正版登录方式" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="内容版本：2.8.7 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="现 PCL 采用了全新的登录方式。在登录游戏帐户时，可以遵循以下操作步骤：，将复制好的代码粘贴至 PCL 刚刚打开的网页中" />
+		<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="1. 在 PCL 弹出的弹窗中点击 “复制代码”。" />
+		<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="2. 将复制好的代码粘贴至 PCL 刚刚打开的网页中，点击网页中的 “允许访问” 按钮。" />
+		<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 输入你的密码，并点击 “确定”。" />
+		<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="4. 在 “是否允许此应用访问你的信息？” 网页中点击 “接受”，即可回到 PCL 并完成登录。" />
+
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="不再完全支持 32 位系统" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="内容版本：2.8.7 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="现 PCL 不再完全支持 32 位系统，若在 32 位系统下运行会显示环境警告。" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更多……" Margin="0,0,0,15" CanSwap="False">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17" TextWrapping="Wrap" 
+                   Text="在 PCL 的 GitHub 主仓库中，社区用户正在参与制作更多有趣的新功能，他们正为 PCL 伟大的咕咕咕事业贡献自己的力量！" />
+        <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,8" ColorType="Highlight"
+                    Text="PCL GitHub 仓库 Pull Request 页面" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/pulls" />
+		<TextBlock Margin="0,10,0,4" LineHeight="17" TextWrapping="Wrap" 
+                   Text="同时，PCL 的多语言版本已经开始了翻译工作，如若你感兴趣的话，欢迎协助社区工作者们一同完善 PCL 的国际化工作！" />
+        <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,8"
+                    Text="参与进来！" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/discussions/4580" />
+    </StackPanel>
+</local:MyCard>
