@@ -23,23 +23,12 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自动安装同目录下的 modpack.zip" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="不再完全支持 32 位系统" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="支持版本：2.8.4 及以上" />
+                   Text="内容版本：2.8.7 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
-	</StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="Mod 管理进一步优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="支持版本：2.8.5 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现 PCL 已支持筛选可更新/启用/禁用的 Mod。你可以在任意一个装有 Mod 的版本中预览到全新的筛选选项：" />
-		<Image HorizontalAlignment="Center" 
-					Source="https://z4a.net/images/2024/10/05/NewModManagementeb8faa8e6a8324d3.png"/>
+                   Text="现 PCL 不再完全支持 32 位系统，若在 32 位系统下运行会显示环境警告。" />
 	</StackPanel>
 </local:MyCard>
 
@@ -57,18 +46,30 @@
                     Text="3. 输入你的密码，并点击 “确定”。" />
 		<TextBlock Margin="2,0,0,4" LineHeight="17"
                     Text="4. 在 “是否允许此应用访问你的信息？” 网页中点击 “接受”，即可回到 PCL 并完成登录。" />
-
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="不再完全支持 32 位系统" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Mod 管理进一步优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="内容版本：2.8.7 及以上" />
+                   Text="支持版本：2.8.5 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现 PCL 不再完全支持 32 位系统，若在 32 位系统下运行会显示环境警告。" />
+                   Text="现 PCL 已支持筛选可更新/启用/禁用的 Mod。你可以在任意一个装有 Mod 的版本中预览到全新的筛选选项：" />
+		<Image HorizontalAlignment="Center" 
+					Source="https://z4a.net/images/2024/10/05/NewModManagementeb8faa8e6a8324d3.png"/>
 	</StackPanel>
 </local:MyCard>
+
+<local:MyCard Title="自动安装同目录下的 modpack.zip" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="支持版本：2.8.4 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
+	</StackPanel>
+</local:MyCard>
+
+
 
 <local:MyCard Title="更多……" Margin="0,0,0,15" CanSwap="False">
     <StackPanel Margin="25,40,23,11">
