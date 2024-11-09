@@ -17,9 +17,35 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="整合包导入综合优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                   Text="支持版本：2.8.4 及以上；2.8.10 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="在导入压缩文件包时，会自动换用被打包的启动器进行后续安装。&#xa;因此，玩家即使用自己的 PCL 导入整合包，也能看到设置的背景图片、主页和音乐。" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="下图是目前最推荐的懒人包分发格式：" />
+        <Image HorizontalAlignment="Center" 
+					Source="https://i0.hdslb.com/bfs/article/91410d326cfb2be867802eabc3dc557511343203.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Mod 详情页面优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                   Text="支持版本：2.8.5 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="现在 Mod 详情页面会按 Mod 加载器分类卡片了。" />
+		<Image HorizontalAlignment="Center" 
+					Source="https://z4a.net/images/2024/11/09/ModDownloadDetails.jpg"/>
+	</StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="NeoForge 兼容与自动安装" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                    Text="支持版本：2.8.0 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                    Text="PCL 现已支持 NeoForge 的识别与下载安装，你可以在 “下载 → 自动安装” 中选择一个版本来安装之。详细操作步骤可以参考帮助库的描述：" />
@@ -30,7 +56,7 @@
 
 <local:MyCard Title="支持下载原版服务端" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                    Text="支持版本：2.8.9 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                    Text="PCL 现已支持下载原版服务端，你可以在 “下载 → 自动安装” 中，将鼠标指针悬浮于任意版本上方，点击右侧 “下载服务端” 图标即可下载。" />
@@ -41,7 +67,7 @@
 
 <local:MyCard Title="使用新的正版登录方式" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                    Text="支持版本：2.8.7 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                    Text="现 PCL 采用了全新的登录方式。在登录游戏帐户时，可以遵循以下操作步骤：" />
@@ -56,18 +82,9 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自动安装同目录下的 modpack.zip" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="支持版本：2.8.4 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
-	</StackPanel>
-</local:MyCard>
-
 <local:MyCard Title="Mod 管理进一步优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                    Text="支持版本：2.8.5 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                    Text="现 PCL 已支持筛选可更新/启用/禁用的 Mod。你可以在任意一个装有 Mod 的版本中预览到全新的筛选选项：" />
@@ -78,7 +95,7 @@
 
 <local:MyCard Title="不再完全支持 32 位系统" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                    Text="内容版本：2.8.7 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                    Text="现 PCL 不再完全支持 32 位系统，若在 32 位系统下运行会显示环境警告。" />
@@ -97,3 +114,6 @@
                     Text="参与进来！" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/discussions/4580" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyTextButton Margin="0,8,0,10" HorizontalAlignment="Right" EventType="打开帮助" EventData="https://updatehomepage.pages.dev/UpdateHomepage.json"
+                    Text="查看完整更新日志" />
