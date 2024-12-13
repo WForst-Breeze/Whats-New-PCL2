@@ -19,7 +19,7 @@
                    Text="支持版本：PCL 开源版本" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                    Text="现在，大家可以在 GitHub 下载 PCL 的源码，自己魔改 PCL 发布魔改版了！&#xa;无论是整合包作者还是服主，只要满足协议要求，都可以修改 PCL 并且在自己的整合包中使用！" />
-        <local:MyTextButton Margin="0,8,0,10" HorizontalAlignment="Right" EventType="打开帮助" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE"
+        <local:MyTextButton Margin="0,8,0,10" HorizontalAlignment="Right" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE"
                    Text="查看详情" />
     </StackPanel>
 </local:MyCard>
