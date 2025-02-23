@@ -13,6 +13,16 @@
     </StackPanel>
 </local:MyCard>
 
+<!--等待帮助库更新-->
+<local:MyCard Title="支持导出整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                   Text="支持版本：2.9.0 及以上" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                   Text="PCL 现已支持整合包导出，可以以极其方便的操作导出整合包并分发！你可以在版本设置 → 导出中导出你的整合包。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="开源协议更新：允许分发衍生作品！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
