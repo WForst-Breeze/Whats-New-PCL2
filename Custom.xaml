@@ -13,110 +13,106 @@
     </StackPanel>
 </local:MyCard>
 
-<!--等待帮助库更新-->
-<local:MyCard Title="支持导出整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="社区资源下载拓展与资源下载优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.9.0 及以上" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                Text="支持版本：2.10.0 及以上" />
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="PCL 现已支持整合包导出，可以以极其方便的操作导出整合包并分发！你可以在版本设置 → 导出中导出你的整合包。" />
+                Text="PCL 现已支持安装资源包、光影包、数据包等社区资源。你可以在 “下载 → 社区资源” 中安装之。" />
+        <!--等待帮助库更新
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                Text="PCL 现已支持安装资源包、光影包、数据包等社区资源。详细操作步骤可以参考帮助库的描述：" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		        EventType="打开帮助" EventData="Minecraft/资源包安装.json" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		        EventType="打开帮助" EventData="Minecraft/安装光影.json" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		        EventType="打开帮助" EventData="Minecraft/数据包安装.json" />
+        -->
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                Text="同时，PCL 现已支持手动设置文件下载源。你可以在 “设置 → 其他 → 下载 → 文件下载源” 处进行设置。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="开源协议更新：允许分发衍生作品！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="整合包导出与导入的综合优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：PCL 开源版本" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现在，大家可以在 GitHub 下载 PCL 的源码，自己魔改 PCL 发布魔改版了！&#xa;无论是整合包作者还是服主，只要满足协议要求，都可以修改 PCL 并且在自己的整合包中使用！" />
-        <local:MyTextButton Margin="0,8,0,10" HorizontalAlignment="Right" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE"
-                   Text="查看详情" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="整合包导入综合优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.8.4 及以上；2.8.10 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="在导入压缩文件包时，会自动换用被打包的启动器进行后续安装。&#xa;因此，玩家即使用自己的 PCL 导入整合包，也能看到设置的背景图片、主页和音乐。" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="下图是目前最推荐的懒人包分发格式：" />
-        <Image HorizontalAlignment="Center" 
+	    <TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="整合包导出功能支持" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.9.0 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="PCL 现已支持整合包导出，可以以极其方便的操作导出整合包并分发！详细操作步骤可以参考帮助库的描述：" />
+            <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		                EventType="打开帮助" EventData="Minecraft/导出整合包.json" />
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="整合包导入综合优化" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.8.4 及以上；2.8.10 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="在启动 PCL 时，现在支持自动安装与 PCL 处于同级文件夹的整合包了。" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="在导入压缩文件包时，会自动换用被打包的启动器进行后续安装。&#xa;因此，玩家即使用自己的 PCL 导入整合包，也能看到设置的背景图片、主页和音乐。" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="下图是目前最推荐的懒人包分发格式：" />
+            <Image HorizontalAlignment="Center" 
 					Source="https://i0.hdslb.com/bfs/article/91410d326cfb2be867802eabc3dc557511343203.png"/>
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Mod 详情页面优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Mod 详情与管理优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.8.5 及以上；2.8.11 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现在 Mod 详情页面会按 Mod 加载器分类卡片，且添加了 MC 版本筛选。" />
-		<Image HorizontalAlignment="Center" 
-					Source="https://z4a.net/images/2024/12/13/ModDetails2.jpg"/>
-	</StackPanel>
+	    <TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="Mod 详情页面优化" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.8.5 及以上；2.8.11 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="现在 Mod 详情页面会按 Mod 加载器分类卡片，且添加了 MC 版本筛选。" />
+		    <Image HorizontalAlignment="Center" 
+					    Source="https://z4a.net/images/2024/12/13/ModDetails2.jpg"/>
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="Mod 管理页面优化" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.8.5 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="现 PCL 已支持筛选可更新/启用/禁用的 Mod。你可以在任意一个装有 Mod 的版本中预览到全新的筛选选项：" />
+		    <Image HorizontalAlignment="Center" 
+					    Source="https://z4a.net/images/2024/10/05/NewModManagementeb8faa8e6a8324d3.png"/>
+    </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="NeoForge 兼容与自动安装" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="其他较早版本的更新……" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.8.0 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="PCL 现已支持 NeoForge 的识别与下载安装，你可以在 “下载 → 自动安装” 中选择一个版本来安装之。详细操作步骤可以参考帮助库的描述：" />
-		<local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
-		            EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
-	</StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="支持下载原版服务端" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.8.9 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="PCL 现已支持下载原版服务端，你可以在 “下载 → 自动安装” 中，将鼠标指针悬浮于任意版本上方，点击右侧 “下载服务端” 图标即可下载。" />
-        <Image HorizontalAlignment="Center" 
-					Source="https://z4a.net/images/2024/10/19/PCLServerDownload.png"/>
-	</StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="使用新的正版登录方式" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.8.7 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现 PCL 采用了全新的登录方式。在登录游戏帐户时，可以遵循以下操作步骤：" />
-		<TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="1. 在 PCL 弹出的弹窗中点击 “复制代码”。" />
-		<TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="2. 将复制好的代码粘贴至 PCL 刚刚打开的网页中，点击网页中的 “允许访问” 按钮。" />
-		<TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="3. 输入你的密码，并点击 “确定”。" />
-		<TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="4. 在 “是否允许此应用访问你的信息？” 网页中点击 “接受”，即可回到 PCL 并完成登录。" />
-	</StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="Mod 管理进一步优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="支持版本：2.8.5 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现 PCL 已支持筛选可更新/启用/禁用的 Mod。你可以在任意一个装有 Mod 的版本中预览到全新的筛选选项：" />
-		<Image HorizontalAlignment="Center" 
-					Source="https://z4a.net/images/2024/10/05/NewModManagementeb8faa8e6a8324d3.png"/>
-	</StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="不再完全支持 32 位系统" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
-                   Text="内容版本：2.8.7 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                   Text="现 PCL 不再完全支持 32 位系统，若在 32 位系统下运行会显示环境警告。" />
-	</StackPanel>
+	    <TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="NeoForge 兼容与自动安装" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.8.0 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="PCL 现已支持 NeoForge 的识别与下载安装，你可以在 “下载 → 自动安装” 中选择一个版本来安装之。详细操作步骤可以参考帮助库的描述：" />
+		    <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		                EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="支持下载原版服务端" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.8.9 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="PCL 现已支持下载原版服务端，你可以在 “下载 → 自动安装” 中，将鼠标指针悬浮于任意版本上方，点击右侧 “下载服务端” 图标即可下载。" />
+            <Image HorizontalAlignment="Center" 
+					    Source="https://z4a.net/images/2024/10/19/PCLServerDownload.png"/>
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                    Text="使用新的正版登录方式" />
+            <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                        Text="支持版本：2.8.7 及以上" />
+		    <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                        Text="现 PCL 采用了全新的登录方式。在登录游戏帐户时，可以遵循以下操作步骤：" />
+		    <TextBlock Margin="2,0,0,4" LineHeight="17" TextWrapping="Wrap"
+                        Text="1. 在 PCL 弹出的弹窗中点击 “复制代码”。" />
+		    <TextBlock Margin="2,0,0,4" LineHeight="17" TextWrapping="Wrap"
+                        Text="2. 将复制好的代码粘贴至 PCL 刚刚打开的网页中，点击网页中的 “允许访问” 按钮。" />
+		    <TextBlock Margin="2,0,0,4" LineHeight="17" TextWrapping="Wrap"
+                        Text="3. 输入你的密码，并点击 “确定”。" />
+		    <TextBlock Margin="2,0,0,4" LineHeight="17" TextWrapping="Wrap"
+                        Text="4. 在 “是否允许此应用访问你的信息？” 网页中点击 “接受”，即可回到 PCL 并完成登录。" />
+    </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="更多……" Margin="0,0,0,15" CanSwap="False">
@@ -132,5 +128,5 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyTextButton Margin="0,8,0,10" HorizontalAlignment="Right" EventType="打开帮助" EventData="https://updatehomepage.pages.dev/UpdateHomepage.json"
-                    Text="查看完整更新日志" />
+<local:MyTextButton Margin="0,8,0,8" HorizontalAlignment="Center" 
+    EventType="打开帮助" EventData="https://updatehomepage.pages.dev/UpdateHomepage.json" Text="查看完整更新日志" />
