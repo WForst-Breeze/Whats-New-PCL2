@@ -13,13 +13,25 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="联机！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
+                Text="支持版本：2.11.0 及以上" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                Text="现在你可以使用 PCL 进行联机了！你可以在 “联机” 页面加入或创建房间进行联机。" />
+        <!--等待帮助库更新
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+                Text="现在你可以使用 PCL 进行联机了！你可以在 “联机” 页面加入或创建房间进行联机。详细操作步骤可以参考帮助库的描述：" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
+		        EventType="打开帮助" EventData="Minecraft/联机.json" />
+        -->
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="社区资源下载拓展与资源下载优化" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                 Text="支持版本：2.10.0 及以上" />
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                Text="PCL 现已支持安装资源包、光影包、数据包等社区资源。你可以在 “下载 → 社区资源” 中安装之。" />
-        <!--等待帮助库更新
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                 Text="PCL 现已支持安装资源包、光影包、数据包等社区资源。详细操作步骤可以参考帮助库的描述：" />
         <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
@@ -28,7 +40,6 @@
 		        EventType="打开帮助" EventData="Minecraft/安装光影.json" />
         <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
 		        EventType="打开帮助" EventData="Minecraft/数据包安装.json" />
-        -->
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                 Text="同时，PCL 现已支持手动设置文件下载源。你可以在 “设置 → 其他 → 下载 → 文件下载源” 处进行设置。" />
     </StackPanel>
