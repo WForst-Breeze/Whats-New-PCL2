@@ -17,14 +17,10 @@
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17" FontWeight="Bold"
                 Text="支持版本：2.11.0 及以上" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
-                Text="现在你可以使用 PCL 进行联机了！你可以在 “联机” 页面加入或创建房间进行联机。" />
-        <!--等待帮助库更新
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
+       <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" LineHeight="17"
                 Text="现在你可以使用 PCL 进行联机了！你可以在 “联机” 页面加入或创建房间进行联机。详细操作步骤可以参考帮助库的描述：" />
         <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
 		        EventType="打开帮助" EventData="Minecraft/联机.json" />
-        -->
     </StackPanel>
 </local:MyCard>
 
